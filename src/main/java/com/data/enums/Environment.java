@@ -2,6 +2,6 @@ package com.data.enums;
 
 public enum Environment {
     PROD,
-    STAG,
+    STAGE,
     DEV
 }
