@@ -11,6 +11,14 @@ import static com.data.enums.WebDriver.*;
 
 public class WebDriverTest {
 
+    /*
+        - In order to tun this tests, please get chromedriver, geckodriver and msedgedriver by your own
+        - Put you WebDrivers in directory WebDriver (Content Root)
+        - WebDrivers should be named by default (chromedriver, geckodriver, msedgedriver)
+        - You can change the names or the path of the WebDrivers, however firstly you should modify data in Framework.properties
+          file.
+    */
+
     WebDriverManager webDriverManager;
     WebDriver driver;
     PropertyFileReader propertyFileReader;
