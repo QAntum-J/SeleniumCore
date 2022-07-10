@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriverException;
 
 public abstract class WebDriverManager {
     protected WebDriver driver;
-    protected abstract void setUpDriverOptions(boolean headless);
     protected PropertyFileReader propertyFileReader = new PropertyFileReader();
+    protected abstract void setUpDriverOptions(boolean headless);
     protected abstract void locateDriver();
     protected abstract void tearDownDriver();
 
