@@ -4,7 +4,6 @@ import com.data.enums.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-
 public class ChromeDriverManager extends WebDriverManager{
     @Override
     protected void setUpDriverOptions(boolean headless) {

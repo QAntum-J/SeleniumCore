@@ -7,7 +7,7 @@ import com.framework.settings.webdriver.manager.GeckoDriverManager;
 import com.framework.settings.webdriver.manager.WebDriverManager;
 import org.openqa.selenium.WebDriverException;
 
-public abstract class WebDriverFactory {
+public class WebDriverFactory {
     public static WebDriverManager initializeDriver(WebDriver webDriver){
         WebDriverManager webDriverManager;
         switch (webDriver){
@@ -19,5 +19,4 @@ public abstract class WebDriverFactory {
         if(webDriverManager != null) return webDriverManager;
         else throw new WebDriverException("Not existing WebDriver has been chosen");
     }
-
 }
