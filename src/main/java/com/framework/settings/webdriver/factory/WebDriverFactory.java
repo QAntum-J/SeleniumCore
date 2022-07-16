@@ -8,6 +8,7 @@ import com.framework.settings.webdriver.manager.WebDriverManager;
 import org.openqa.selenium.WebDriverException;
 
 public class WebDriverFactory {
+    //test
     public static WebDriverManager initializeDriver(WebDriver webDriver){
         WebDriverManager webDriverManager;
         switch (webDriver){
